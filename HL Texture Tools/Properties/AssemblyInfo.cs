@@ -4,12 +4,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Half-Life Texture Tools")]
-[assembly: AssemblyDescription("Simple Half-Life Data files viewer and editor (for WADs and Sprites). This software uses the FreeImage open source image library. See https://freeimage.sourceforge.io/ for details.")]
+[assembly: AssemblyTitle("Tessera")]
+[assembly: AssemblyDescription("Simple Half-Life Data files viewer and editor (for WADs and Sprites). Based on HLTextureTools. This software uses the FreeImage open source image library. See https://freeimage.sourceforge.io/ for details.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Half-Life Texture Tools")]
-[assembly: AssemblyCopyright("Copyright © 2006-2025 Juraj Novák (Yuraj)")]
+[assembly: AssemblyProduct("Tessera")]
+[assembly: AssemblyCopyright("Copyright © 2025 The Phoenix Project Software SVG. Copyright © 2006-2025 Juraj Novák (Yuraj)")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

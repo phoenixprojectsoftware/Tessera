@@ -1105,7 +1105,7 @@ namespace HLTextureTools
             this.MinimumSize = new System.Drawing.Size(385, 256);
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Half-Life Texture Tools ";
+            this.Text = "Tessera ";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.Load += new System.EventHandler(this.MainForm_Load);
             this.DragDrop += new System.Windows.Forms.DragEventHandler(this.MainForm_DragDrop);
