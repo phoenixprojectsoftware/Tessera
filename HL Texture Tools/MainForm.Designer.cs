@@ -1105,7 +1105,11 @@ namespace HLTextureTools
             this.MinimumSize = new System.Drawing.Size(385, 256);
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+#if BETA
+            this.Text = "Tessera Beta ";
+#else
             this.Text = "Tessera ";
+#endif
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.Load += new System.EventHandler(this.MainForm_Load);
             this.DragDrop += new System.Windows.Forms.DragEventHandler(this.MainForm_DragDrop);
@@ -1131,7 +1135,7 @@ namespace HLTextureTools
 
         }
 
-        #endregion
+#endregion
 
         private System.Windows.Forms.PictureBox pictureBox1;
         private ListBoxEx listBox1;
